@@ -42,19 +42,9 @@ Main Menu:
 
 Upon launching the program, you will see the main menu:
 
-Welcome to the Simple Calculator
 
-   **Main Menu**
-   
-**=====================**
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/8b03f499-8f38-44e8-a979-51d09697c165)
 
-**[1] Perform Calculation**
-
-**[2] View History**
-
-**[0] Exit**
-
-**=====================**
 
 Enter your choice:
 
