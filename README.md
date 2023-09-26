@@ -7,6 +7,7 @@ This is a simple command-line calculator program written in C. It allows users t
 - [How to Use](#how-to-use)
 - [Calculation Operations](#calculation-operations)
 - [Viewing Calculation History](#viewing-calculation-history)
+- [Error Handling](#error-handling)
 
 ## Features
 
