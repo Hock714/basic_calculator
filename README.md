@@ -75,15 +75,59 @@ The calculator supports the following operations:
 
 Addition (+)
 
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/61cc9ca7-584d-493d-940e-f48a34d1152f)
+
 Subtraction (-)
+
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/806afa7e-72f1-4b25-9207-37bb4f201a83)
 
 Multiplication (*)
 
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/140011f7-bf6a-4989-b52a-69fd0aa7ecf3)
+
 Division (/)
+
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/5e03b59a-8162-4d6f-bc3e-b1b2746f8981)
 
 Exponentiation (^)
 
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/b3ad28a0-e260-4704-9233-48bdac619211)
+
 Square Root (sqrt)
+
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/fef2b828-7f36-45ee-8570-ad52ea1ec7a4)
 
 ## Viewing Calculation History
 You can view your calculation history by selecting the "View History" option from the main menu. The history will display previous calculations, including the operator used and the result. Once the program closed, the history will dissapeared.
+
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/718c04ca-a5cc-4347-a264-4e5701c98382)
+
+## Error Handling
+
+The Simple Calculator code includes error handling mechanisms to ensure valid user input and smooth operation:
+
+1. **Invalid Input for Calculations:**
+   - When users choose a calculation operation (e.g., addition, subtraction) and enter an equation (e.g., "12+34"), the code verifies if the input is numeric and if the operator is appropriate for the selected operation.
+   - If the input doesn't meet these criteria (e.g., alphabetic characters or an incorrect operator), the code displays an error message and prompts the user to enter a valid equation.
+
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/aea99ee3-3ff9-4d47-b05f-79582fd331c9)
+
+2. **Division by Zero Check:**
+   - During division operations, the code checks if the denominator (num2) is zero.
+   - If the denominator is zero (division by zero), the code displays an error message and asks the user to enter a valid equation to prevent runtime errors.
+
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/e6d39940-4af2-41aa-88f1-8af15afe14ab)
+
+3. **Non-Negative Number for Square Root:**
+   - When users choose the square root operation, the code verifies if the entered number is non-negative.
+   - If the number is negative, the code displays an error message and prompts the user to enter a non-negative number, ensuring that square root calculations are performed on valid input.
+
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/2b27c51e-d1f4-406d-a3c6-a4b1deed5ada)
+
+4. **Menu Option Validation:**
+   - The code validates user input for menu options to ensure that users only input valid choices (e.g., 0, 1, 2).
+   - If users enter an invalid menu option, the code displays an error message and asks them to try again, preventing unintended behavior and ensuring correct menu interactions.
+
+![image](https://github.com/Hock714/basic_calculator/assets/103088158/5ad7c2a3-e23a-4ca9-8e83-10f6676fd570)
+
+These error handling mechanisms enhance the usability and reliability of the Simple Calculator, ensuring valid input and preventing unexpected issues during calculations.
