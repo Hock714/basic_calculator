@@ -50,7 +50,9 @@ Performing Calculations:
 
 To perform a calculation, enter 1 and press Enter.
 Choose the type of calculation (e.g., addition, subtraction) and enter the equation in the format num1 + num2. Press Enter to see the result.
+
 ![image](https://github.com/Hock714/basic_calculator/assets/103088158/d506ff7a-2a26-4d81-b605-ac8b37269bb0)
+
 ![image](https://github.com/Hock714/basic_calculator/assets/103088158/d26ad163-60dd-44db-a12b-d3f710eac30c)
 
 Viewing Calculation History:
