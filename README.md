@@ -24,20 +24,20 @@ This is a simple command-line calculator program written in C. It allows users t
    Clone the Simple Calculator repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/yourusername/calculator.git
+   git clone https://github.com/Hock714/basic_calculator.git
    cd calculator
 Compile the Code:
 
 Compile the source code using a C compiler (e.g., GCC) to create the executable file. Use the following command:
 
-bash
+```bash
 Copy code
-gcc calculator.c -o calculator
-Run the Program:
+gcc basic_calculator.c -o calculator
 
+Run the Program:
 Execute the calculator program by running:
 
-bash
+```bash
 Copy code
 ./calculator
 Main Menu:
