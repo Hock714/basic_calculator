@@ -73,11 +73,17 @@ Returning to the Main Menu:
 After performing a calculation or viewing history, you can return to the main menu by following the on-screen prompts.
 ## Calculation Operations
 The calculator supports the following operations:
+
 Addition (+)
+
 Subtraction (-)
+
 Multiplication (*)
+
 Division (/)
+
 Exponentiation (^)
+
 Square Root (sqrt)
 
 ## Viewing Calculation History
