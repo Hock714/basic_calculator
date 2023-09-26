@@ -30,22 +30,17 @@ Compile the Code:
 
 Compile the source code using a C compiler (e.g., GCC) to create the executable file. Use the following command:
 
-```bash
-Copy code
-gcc basic_calculator.c -o calculator
+   gcc basic_calculator.c -o calculator
 
 Run the Program:
 Execute the calculator program by running:
 
-```bash
-Copy code
-./calculator
+   ./calculator
+
 Main Menu:
 
 Upon launching the program, you will see the main menu:
 
-css
-Copy code
 Welcome to the Simple Calculator
 
           Main Menu
