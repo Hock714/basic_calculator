@@ -43,12 +43,12 @@ Upon launching the program, you will see the main menu:
 
 Welcome to the Simple Calculator
 
-   Main Menu
- =====================
- [1] Perform Calculation
- [2] View History
- [0] Exit
- =====================
+   **Main Menu**
+**=====================**
+**[1] Perform Calculation**
+**[2] View History**
+**[0] Exit**
+**=====================**
 Enter your choice:
 Performing Calculations:
 
