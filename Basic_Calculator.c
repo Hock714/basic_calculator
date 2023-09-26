@@ -3,6 +3,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#define MAX_HISTORY_SIZE 100
+struct Calculation history[MAX_HISTORY_SIZE];
+int historyCount = 0;
+
 
 //Calculation Structure
 struct Calculation {
@@ -11,11 +15,6 @@ struct Calculation {
     double num2;
     double result;
 };
-
-
-#define MAX_HISTORY_SIZE 100
-struct Calculation history[MAX_HISTORY_SIZE];
-int historyCount = 0;
 
 
 //Display History Function
