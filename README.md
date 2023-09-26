@@ -33,6 +33,7 @@ Compile the source code using a C compiler (e.g., GCC) to create the executable 
    gcc basic_calculator.c -o calculator
 
 Run the Program:
+
 Execute the calculator program by running:
 
    ./calculator
@@ -56,6 +57,7 @@ Welcome to the Simple Calculator
 **=====================**
 
 Enter your choice:
+
 Performing Calculations:
 
 To perform a calculation, enter 1 and press Enter.
